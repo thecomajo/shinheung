@@ -9,7 +9,7 @@
 header{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:15px 14px 26px;overflow:hidden} .headerInner{max-width:920px;margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap} h1{margin:0;font-size:24px;letter-spacing:-.04em} header p{margin:8px 0 0;font-size:14px;line-height:1.55;opacity:.92;word-break:keep-all} .maker{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.13);border-radius:15px;padding:7px 11px;font-size:12px;white-space:nowrap}
 main{max-width:920px;margin:-18px auto 36px;padding:0 10px;display:flex;flex-direction:column;gap:13px} .card{background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden} .section{padding:13px} h2{font-size:20px;margin:0 0 10px;letter-spacing:-.03em} h3{font-size:16px;margin:0;letter-spacing:-.02em} .muted{font-size:12.5px;color:var(--muted);line-height:1.55} .toolbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px} input,select,button{font:inherit} input[type=text],select{width:100%;border:1px solid var(--line);border-radius:12px;padding:9px 10px;background:#fff} button{border:0;border-radius:10px;padding:7px 10px;background:var(--blue);color:#fff;font-weight:800;font-size:12px;cursor:pointer} button.secondary{background:#eef2ff;color:#1e40af} button.ghost{background:#f1f5f9;color:#334155}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px} .stat{background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:10px;min-width:0} .stat b{display:block;font-size:19px} .meter{height:11px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:8px 0 3px} .meter>div{height:100%;background:var(--green);width:0%} .meter.over>div{background:var(--red)}
-.group{border-top:1px solid var(--line);padding:12px} .group:first-child{border-top:0} .groupHead{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:10px} .groupTitle{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap} .groupName{font-size:19px;font-weight:900;color:#0f172a} .semester{font-size:20px;font-weight:900;color:#1e3a8a;letter-spacing:-.04em} .badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 8px;font-size:12px;font-weight:800;background:#f1f5f9;color:#475569;white-space:nowrap} .badge.ok{background:#ecfdf5;color:#047857} .badge.warn{background:#fff7ed;color:#c2410c} .badge.err{background:#fef2f2;color:#b91c1c}
+.group{border-top:1px solid var(--line);padding:12px} .group:first-child{border-top:0} .groupHead{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:10px} .groupTitle{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap} .groupName{font-size:19px;font-weight:900;color:#0f172a} .semester{font-size:20px;font-weight:900;color:#1e3a8a;letter-spacing:-.04em} .badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 8px;font-size:12px;font-weight:800;background:#f1f5f9;color:#475569;white-space:nowrap} .badge.ok{background:#ecfdf5;color:#047857} .badge.warn{background:#fff7ed;color:#c2410c} .badge.err{background:#fef2f2;color:#b91c1c} label.subject.duplicateDisabled{opacity:.48;cursor:not-allowed;background:#f8fafc} label.subject.duplicateDisabled:hover{border-color:var(--line);background:#f8fafc}
 .fixedList{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px} .fixedItem{border:1px solid var(--line);border-radius:12px;padding:8px 9px;background:#fafafa;font-size:12.5px;line-height:1.35} .subjects{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px} label.subject{border:1px solid var(--line);border-radius:15px;padding:10px 11px;display:flex;gap:8px;cursor:pointer;background:#fff;min-height:78px} label.subject:hover{border-color:#93c5fd;background:#f8fbff} label.subject.selected{border-color:var(--blue);background:var(--blue2)} .subject input{margin-top:3px} .subjectTopLine{display:flex;align-items:center;gap:7px;flex-wrap:wrap} .subName{font-size:16.5px;font-weight:900;line-height:1.17;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:anywhere} .creditBadge{display:inline-flex;padding:3px 7px;border-radius:999px;background:#dbeafe;color:#1d4ed8;border:1px solid #93c5fd;font-size:11.5px;font-weight:900;line-height:1;white-space:nowrap} .subMeta{font-size:12px;color:var(--muted);line-height:1.35;margin-top:4px} .chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px} .chip{font-size:10.5px;border-radius:999px;background:#f1f5f9;color:#475569;padding:3px 7px}
 .warnBox{border-radius:14px;padding:10px 11px;margin-top:10px;font-size:12.5px;line-height:1.55;border:1px solid var(--line);background:#f8fafc} .warnBox.err{background:#fef2f2;border-color:#fecaca;color:#991b1b} .warnBox.ok{background:#ecfdf5;border-color:#bbf7d0;color:#065f46} .warnBox.warn{background:#fff7ed;border-color:#fed7aa;color:#9a3412} .pillbar{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px} .pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 9px;font-size:12px;cursor:pointer} .pill.active{background:var(--blue);border-color:var(--blue);color:#fff} .tableWrap{max-height:330px;overflow:auto;border:1px solid var(--line);border-radius:14px} table{width:100%;border-collapse:collapse;font-size:12.5px} th,td{border-bottom:1px solid var(--line);padding:7px;text-align:left;vertical-align:top} th{background:#f8fafc;position:sticky;top:0;z-index:1} .small{font-size:12px;color:var(--muted)} .printOnly{display:none}
 @media(max-width:760px){html,body{max-width:100%} h1{font-size:21px} main{padding:0 8px} .toolbar,.stats{grid-template-columns:1fr 1fr} .subjects,.fixedList{grid-template-columns:1fr} .semester{font-size:19px} .groupName{font-size:18px}}
@@ -602,6 +602,7 @@ function chooseSubjectIfPossible(s){
   const group=s.selectGroup;
   const inGroup=SUBJECTS.filter(x=>x.selectGroup===group && selected.has(x.id));
   if(selected.has(s.id)) return {ok:true, reason:'이미 선택'};
+  if(SUBJECTS.some(x=>selected.has(x.id) && x.name===s.name)) return {ok:false, reason:'동일 과목 이미 선택'};
   if(inGroup.length>=s.chooseCount) return {ok:false, reason:`${group} 선택 초과`};
   selected.add(s.id);
   return {ok:true, reason:'선택'};
@@ -618,12 +619,10 @@ function applyUniversityRecommendation(idx){
     const candidates=SUBJECTS.filter(s=>s.name===item.n).sort((a,b)=>groupSort(a.selectGroup,b.selectGroup));
     candidates.forEach(s=>{
       if(s.selectGroup==='지정'){ fixed.push(s); return; }
-      const group=s.selectGroup;
-      const inGroup=SUBJECTS.filter(x=>x.selectGroup===group && selected.has(x.id));
-      if(!selected.has(s.id) && inGroup.length < s.chooseCount){
-        selected.add(s.id);
+      const result=chooseSubjectIfPossible(s);
+      if(result.ok && result.reason==='선택'){
         chosen.push(s);
-      } else if(!selected.has(s.id)){
+      } else if(!result.ok){
         blocked.push(`${s.name}(${s.selectGroup})`);
       }
     });
@@ -675,6 +674,8 @@ function toggleSubject(id){
   const inGroup=SUBJECTS.filter(x=>x.selectGroup===group && selected.has(x.id));
   const cb=document.querySelector(`input[value="${id}"]`);
   if(cb.checked){
+    const duplicate=SUBJECTS.find(x=>x.id!==id && selected.has(x.id) && x.name===s.name);
+    if(duplicate){cb.checked=false; alert(`'${s.name}' 과목은 ${duplicate.selectGroup}에서 이미 선택했습니다.`); return;}
     if(inGroup.length>=s.chooseCount){cb.checked=false; alert(`${group}은(는) ${s.chooseCount}과목까지만 선택할 수 있습니다.`); return;}
     selected.add(id);
   } else {
@@ -727,12 +728,20 @@ function renderRequired(all){
 }
 
 function update(){
-  document.querySelectorAll('label.subject').forEach(el=>el.classList.remove('selected'));
+  document.querySelectorAll('label.subject').forEach(el=>{el.classList.remove('selected','duplicateDisabled'); el.removeAttribute('title');});
+  document.querySelectorAll('.subject input').forEach(cb=>{cb.checked=false; cb.disabled=false;});
   selected.forEach(id=>{
     const card=document.getElementById('card-'+id);
     if(card) card.classList.add('selected');
     const cb=document.querySelector(`input[value="${id}"]`);
     if(cb) cb.checked=true;
+  });
+  const selectedNames=new Set(SUBJECTS.filter(s=>selected.has(s.id)).map(s=>s.name));
+  SUBJECTS.filter(s=>s.selectGroup!=='지정' && !selected.has(s.id) && selectedNames.has(s.name)).forEach(s=>{
+    const cb=document.querySelector(`input[value="${s.id}"]`);
+    const card=document.getElementById('card-'+s.id);
+    if(cb) cb.disabled=true;
+    if(card){card.classList.add('duplicateDisabled'); card.title=`'${s.name}' 과목은 이미 다른 그룹에서 선택되었습니다.`;}
   });
 
   const groupNames=[...new Set(SUBJECTS.filter(s=>s.selectGroup!=='지정').map(s=>s.selectGroup))].sort(groupSort);
@@ -820,7 +829,11 @@ function autoSelect(mode){
     const arr=[...grouped[g]];
     const need=arr[0].chooseCount;
     arr.sort((a,b)=>score(b,pref)-score(a,pref));
-    arr.slice(0,need).forEach(s=>selected.add(s.id));
+    let added=0;
+    for(const s of arr){
+      if(added>=need) break;
+      if(chooseSubjectIfPossible(s).ok) added++;
+    }
   });
   update();
 }
